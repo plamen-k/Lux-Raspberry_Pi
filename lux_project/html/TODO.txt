@@ -1,0 +1,6 @@
+1. Create a bash file introducing our app
+2. Create a python script disregarding LCD
+3. Make an auto-calibrate button
+4. Implement loading screen
+5. Check if inputs are proper variable types (antifucktard)
+6. Make the auto/manual buttons animate

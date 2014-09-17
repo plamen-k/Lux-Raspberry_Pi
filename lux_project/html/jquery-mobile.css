@@ -1,0 +1,28 @@
+input[type="radio"] + label {
+	margin-left:8px;
+	margin-right: 8px;
+	background-color:#d6d6d6;
+	width:15px;
+	height:15px;
+	display: inline-block;
+	border-radius:20px;
+}
+
+input[type="radio"]:checked + label {
+	margin-left:8px;
+	margin-right:8px;
+	background-color:#74a5f7;
+	width:15px;
+	height:15px;
+	display: inline-block;
+	border-radius:20px;
+}
+
+#change_tr_line{
+	margin-top:10px;
+	margin-bottom:-10px;
+}
+
+#threshold_cont{
+	margin:6.6px;
+}

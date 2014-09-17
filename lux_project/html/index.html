@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width initial-scale=1.0"/>
+
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />      
+  <title>Light Control</title>
+  <script type="text/javascript" src="/webiopi.js"></script>
+  <script type="text/javascript" src="/jquery.js"></script>
+  <script type="text/javascript" src="/js/build.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+
+<body>
+    <div id="container">
+    <div id="inner">
+
+    <div id="help-page">
+      <p id="exit">X</p>
+      <img src="images/help1.png"/>
+      <img src="images/help2.png"/>
+    </div>
+
+      <div id="advanced_settings">
+        <div id="close_button">X</div>
+        <form id="threshold_form">
+          <input id="threshold_input" placeholder="Threshold" type="text"/>
+          <input id="refresh_input" size="11" placeholder="Refresh Rate" type="text"/>
+          <input type="submit" value="+"/>
+          </form><button id="reset_default">Defaults</button>
+
+      <div id="control_grid">  
+    
+        <div id="light_type">
+          <div id="poss">
+
+            <button id="poss_active">LED</button>
+            <button id="inactive">CFL</button>
+          </div>
+        </div>
+
+      </div>
+      
+      <div id="calibrate"></div>
+
+      </div>
+
+
+
+
+      <div id ="deeper">
+      <div id="progress-container">
+      <div id="progressbar"><p>Switching</p> </div>
+      </div>
+
+      <div id="switch">
+      </div>
+
+      <div id="light_container">
+        
+      </div>
+      <div id="wire_container">
+        <div id="wire_connect"></div><div id="wire_connect"></div><div id="wire_connect"></div><div id="wire_connect"></div>
+
+      </div>
+      <div id="wire"></div>
+      <div id="vertical_wire"></div>
+
+      <!-- <div id="grass"></div> -->
+      <div id="sun"></div>
+
+      <div id="change_threshold">
+
+
+      <div id="threshold_text">
+
+        <div id="threshold_cont">
+          <span>50</span>
+          <div id="span_dash"></div>
+        </div>
+
+        <div id="threshold_cont">
+          <span>100</span>
+          <div id="span_dash"></div>
+        </div>
+
+         <div id="threshold_cont">
+          <span>150</span>
+          <div id="span_dash"></div>
+        </div>
+
+         <div id="threshold_cont">
+          <span>200</span>
+          <div id="span_dash"></div>
+        </div>
+
+         <div id="threshold_cont">
+          <span>250</span>
+          <div id="span_dash"></div>
+        </div>
+
+      </div>
+
+        <div id="change_tr_line"></div>
+        <input id="checkbox" type="radio" name="thresholdSetter" value="50"/><label for="checkbox"></label>
+        <input id="checkbox2" type="radio" name="thresholdSetter" value="100"/><label for="checkbox2"></label>
+        <input id="checkbox3" type="radio" name="thresholdSetter" value="150"/><label for="checkbox3"></label>
+        <input id="checkbox4" type="radio" name="thresholdSetter" value="200"/><label for="checkbox4"></label>
+        <input id="checkbox5" type="radio" name="thresholdSetter" value="250"/><label for="checkbox5"></label>
+
+    </div>
+
+        <div id="label_wrap">
+          <p id="nature">nature</p>
+          <p id="indoor">indoor</p>
+        </div>
+
+
+      <p id="text_luminosity"></p>
+   <!--    <div id="arrow-down"><div href="#" id="vi"><img src="/images/arrow.png"/></div></div> -->
+      
+      <div id="calibrate">
+
+      </div>
+    </div>
+
+        
+      <div id="windmill">
+        <div id="windmill_inner">
+            <div id="blade_div">
+              <img src="/images/blades.png" id="blade"/>
+            </div>
+      <img style="width: 100px;" src="images/base.png" />
+      <div id="text_wrap">
+        <p id="loading">Calibrating</p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div style="width:100%;border-bottom: solid 6px #74a5f7;">
+  <div id="swipe"></div> <p id="question">?</p>
+  </div>
+  </div>
+
+
+</div>
+</body>
+
+</html>
+
+
+        
